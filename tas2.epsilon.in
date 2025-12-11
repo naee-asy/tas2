@@ -6,9 +6,9 @@ calculation = 'eps'
 &ENERGY_GRID
 smeartype   = 'gauss'
 intersmear  = 0.15
-intrasmear  = 0.0
+intrasmear  = 0.10
 wmin        = 0.0
-wmax        = 10.0
-nw          = 500
+wmax        = 50.0
+nw          = 1000
 shift       = 0.0
 /
