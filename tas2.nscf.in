@@ -5,7 +5,7 @@
   pseudo_dir = './pseudo/'
 /
 &SYSTEM
-  ecutwfc =   4.5000000000d+01
+  ecutwfc =   45
   ibrav = 4
   a = 3.34
   c = 12.55
@@ -16,8 +16,8 @@
   noinv = .true.
 /
 &ELECTRONS
-  conv_thr =   1.2000000000d-09
-  mixing_beta =   4.0000000000d-01
+  conv_thr =   1.20d-09
+  mixing_beta =   4.0d-01
 /
 ATOMIC_SPECIES
 S      32.065   S.pz-hgh.UPF
@@ -30,4 +30,4 @@ S            0.6666666700       0.3333333300       0.8734672200
 S            0.6666666600       0.3333333300       0.6265327800
 S            0.3333333400       0.6666666700       0.3734672200
 K_POINTS automatic
-60 60 16 0 0 0
+24 24 12 0 0 0
